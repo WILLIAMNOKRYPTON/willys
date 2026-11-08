@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "basehunter",
+  "version": "1.0.0",
+  "name": "Base Hunter",
+  "description": "Suspicious chunk finder, spawner finder and AFK player finder. Toggle with B.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["basehunter.BaseHunterClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
